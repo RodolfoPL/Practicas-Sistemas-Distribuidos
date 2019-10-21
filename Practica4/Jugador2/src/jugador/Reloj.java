@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package practica1;
+package jugador;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -143,5 +143,4 @@ public class Reloj implements Runnable{
     public String toString(){
         return String.format("%02d", h) +":"+ String.format("%02d", m) +":"+ String.format("%02d", s);
     }
-
 }
